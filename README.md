@@ -1,4 +1,4 @@
-AEB Case Study — Model Representativity Evaluation for Automotive Simulation 
+AEB — Model Representativity Evaluation for Automotive Simulation 
 This repository contains a MathWorks AEB system implementation with two Vehicle Dynamic variants (3DOF and 14DOF) used to evaluate an automated model representativity assessment methodology applied in an automotive context.
 In this example, we evaluate the representativity of these variants for a specific simulation need in the development phase of the project.
 The goal is to support engineers and researchers in selecting the most appropriate simulation model for a given need, while reducing trial‑and‑error and improving consistency across development phases. 
@@ -17,4 +17,8 @@ The system is modeled in AADL. Requirements are defined in ALISA ".reqspec" file
 
 To test the Code: In OSATE, with AADL perspective, in the "Assurance View Window", you will find all the defined assurance cases. Right click on the one you want to check and click on "verify all" to obtain the claim list. This list shows all requirements and their status (successful, fail, error). 
 After that, Xassure objects will be generated automatically. These files will be used as entry for Acceleo report generator in order to generate the corresponding reports.
+
 <img width="349" height="71" alt="image" src="https://github.com/user-attachments/assets/19f9af0b-6c3c-47f4-abbe-2e39c79b2547" />
+
+For more details of the system check: https://fr.mathworks.com/help/driving/ug/autonomous-emergency-braking-with-vehicle-variants.html
+
